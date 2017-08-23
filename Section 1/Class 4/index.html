@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>What can JavaScript do?</title>
+  </head>
+  <body>
+    <h1>What can JavaScript do?</h1>
+    <p id="demo">Javascript can change HTML content.</p>
+
+    <button onclick="document.getElementById('demo').innerHTML = 'HTML updated!'" type="button" name="button">Click me to make changes!</button>
+
+    <hr>
+    <button onclick="document.getElementById('myImage').src = 'http://i.imgur.com/2IRs7Bs.gif'" type="button" name="button">Turn lights ON</button>
+    <img id="myImage" src="http://i.imgur.com/8kGmXwB.png"/>
+    <button onclick="document.getElementById('myImage').src = 'http://i.imgur.com/8kGmXwB.png'" type="button" name="button">Turn lights OFF</button>
+
+    <hr>
+
+    <p id="magic">This is something that will show up, by magic!</p>
+    <button onclick="document.getElementById('magic').style.display = 'none'" type="button" name="button">Hide the text magically!</button>
+    <button onclick="document.getElementById('magic').style.display = 'block'" type="button" name="button">Show the text magically!</button>
+  </body>
+
+</html>
